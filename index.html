@@ -11,26 +11,30 @@
 </head>
 <body class="corpo">
     <main class="conteudo">
+        <section class="conteudo-imagem">
+            <!-- imagem adicionada via CSS para Tablet e telas maiores -->
+        </section>
         <section class="conteudo-escrito">
             <h1 class="conteudo-escrito-titulo">Login</h1>
             <p class="conteudo-escrito-paragrafo">Seja bem-vindo(a) novamente. Faça o login para acessar sua conta e fazer as configurações no seu ambiente</p>
-        </section>
-        <section class="conteudo-principal">
-            <form action="login.py" method="post" class="conteudo-principal-formulario" autocomplete="on">
-                <div class="conteudo-principal-formulario-campo">
-                    <span class="material-icons">person</span>
-                    <input type="email" name="email" id="iemail" placeholder="seu email" required autocomplete="email">
-                </div>
-                <div class="conteudo-principal-formulario-campo">
-                    <span class="material-icons">lock</span>
-                    <input type="password" name="senha" id="isenha" minlength="8" maxlength="15" placeholder="sua senha" required autocomplete="current-password">
-                </div>
-        
-                <div class="conteudo-principal-formulario-botao">
-                    <input type="submit" class="conteudo-principal-formulario-botao-confirmar" value="Confirmar">
-                    <a href="#" class="conteudo-principal-formulario-botao-esqueci">Esqueci a senha <span class="material-icons">email</span></a>
-                </div>
-            </form>
+
+            <section class="conteudo-principal">
+                <form action="login.py" method="post" class="conteudo-principal-formulario" autocomplete="on">
+                    <div class="conteudo-principal-formulario-campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" placeholder="seu email" required autocomplete="email">
+                    </div>
+                    <div class="conteudo-principal-formulario-campo">
+                        <span class="material-icons">lock</span>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="15" placeholder="sua senha" required autocomplete="current-password">
+                    </div>
+            
+                    <div class="conteudo-principal-formulario-botao">
+                        <input type="submit" class="conteudo-principal-formulario-botao-confirmar" value="Confirmar">
+                        <a href="#" class="conteudo-principal-formulario-botao-esqueci">Esqueci a senha <span class="material-icons">email</span></a>
+                    </div>
+                </form>
+            </section>
         </section>
     </main>
 </body>
